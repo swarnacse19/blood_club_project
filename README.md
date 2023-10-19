@@ -7,9 +7,11 @@ The provided code is a C program that appears to be a simple donor management sy
 Code Structure
 
 1. Header Files:
+
 The code includes three standard C library header files: stdio.h, string.h, and stdlib.h. These are essential for input/output, string manipulation, and dynamic memory allocation.
 
 2. Constants and Definitions:
+
 The code defines a maximum size (MAX_SIZE) for various string inputs and the name of a user data file (USER_FILE).
 A struct Donor is defined to represent donor information, including username, password, full name, blood type, contact number, number of donations, and a flag for blood type registration.
 
@@ -17,9 +19,11 @@ A struct Donor is defined to represent donor information, including username, pa
 The code contains a displayError function to display error messages. It takes a message as input and prints it as an error.
 
 4. Main Functions:
+
 The code has several main functions: registerDonor, login, changePassword, changeNumber, searchBloodType, and the main program main.
 
 5. registerDonor Function
+
 This function allows users to register as donors.
 It opens the users.txt file for appending.
 User input is collected for username, password, full name, blood type, and contact number.
@@ -27,6 +31,7 @@ Donor data is written to the file and added to the donors array.
 The donorCount variable is incremented, and a success message is displayed.
 
 6. login Function
+
 This function allows users to log in.
 It prompts users to enter a username and password.
 It compares the entered credentials with those in the donors array.
@@ -34,16 +39,19 @@ If a match is found, the user is considered logged in, and their index is return
 A welcome message is displayed upon successful login.
 
 7. changePassword Function
+
 This function allows logged-in users to change their password.
 It takes the donors array and the user's index as input.
 The user is prompted to enter a new password, which is then updated in the donors array.
 
 8. changeNumber Function
+
 This function allows logged-in users to change their contact number.
 It takes the donors array and the user's index as input.
 The user is prompted to enter a new contact number, which is then updated in the donors array.
 
 9. searchBloodType Function
+
 This function allows users to search for donors by blood type.
 It takes user input for a blood type and searches for matching donors in the donors array.
 If a match is found and the blood type is registered, the donor's information is displayed.

@@ -1,5 +1,7 @@
 # blood_club_project
 
+Documentation for the Blood Club System Project:
+
 Introduction:
 
 The provided code is a C program that appears to be a simple donor management system. It allows users to register as donors, log in, change their contact number and password, search for donors by blood type, and log out. This analysis will provide an overview of the code, highlighting its key components and discussing its structure, functionality, and potential improvements.
